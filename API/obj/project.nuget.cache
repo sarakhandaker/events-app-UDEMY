@@ -1,0 +1,15 @@
+{
+  "version": 2,
+  "dgSpecHash": "yDjAd2nfkMkGaMnJ0z6a3g9yJd4Mr7oNtUP9LG6zkTd9umEv1BsPadk3d3vgu3h5T+ZvOP3QaS0u+qx/B54p8g==",
+  "success": true,
+  "projectFilePath": "/Users/sarakhandaker/Projects/EventsApp/API/API.csproj",
+  "expectedPackageFiles": [
+    "/Users/sarakhandaker/.nuget/packages/microsoft.extensions.apidescription.server/3.0.0/microsoft.extensions.apidescription.server.3.0.0.nupkg.sha512",
+    "/Users/sarakhandaker/.nuget/packages/microsoft.openapi/1.2.3/microsoft.openapi.1.2.3.nupkg.sha512",
+    "/Users/sarakhandaker/.nuget/packages/swashbuckle.aspnetcore/5.6.3/swashbuckle.aspnetcore.5.6.3.nupkg.sha512",
+    "/Users/sarakhandaker/.nuget/packages/swashbuckle.aspnetcore.swagger/5.6.3/swashbuckle.aspnetcore.swagger.5.6.3.nupkg.sha512",
+    "/Users/sarakhandaker/.nuget/packages/swashbuckle.aspnetcore.swaggergen/5.6.3/swashbuckle.aspnetcore.swaggergen.5.6.3.nupkg.sha512",
+    "/Users/sarakhandaker/.nuget/packages/swashbuckle.aspnetcore.swaggerui/5.6.3/swashbuckle.aspnetcore.swaggerui.5.6.3.nupkg.sha512"
+  ],
+  "logs": []
+}
