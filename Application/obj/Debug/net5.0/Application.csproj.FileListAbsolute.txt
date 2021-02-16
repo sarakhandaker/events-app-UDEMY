@@ -1,0 +1,17 @@
+/Users/sarakhandaker/Projects/EventsApp/Application/bin/Debug/net5.0/Application.deps.json
+/Users/sarakhandaker/Projects/EventsApp/Application/bin/Debug/net5.0/Application.dll
+/Users/sarakhandaker/Projects/EventsApp/Application/bin/Debug/net5.0/ref/Application.dll
+/Users/sarakhandaker/Projects/EventsApp/Application/bin/Debug/net5.0/Application.pdb
+/Users/sarakhandaker/Projects/EventsApp/Application/bin/Debug/net5.0/Domain.dll
+/Users/sarakhandaker/Projects/EventsApp/Application/bin/Debug/net5.0/Persistance.dll
+/Users/sarakhandaker/Projects/EventsApp/Application/bin/Debug/net5.0/Domain.pdb
+/Users/sarakhandaker/Projects/EventsApp/Application/bin/Debug/net5.0/Persistance.pdb
+/Users/sarakhandaker/Projects/EventsApp/Application/obj/Debug/net5.0/Application.csprojAssemblyReference.cache
+/Users/sarakhandaker/Projects/EventsApp/Application/obj/Debug/net5.0/Application.GeneratedMSBuildEditorConfig.editorconfig
+/Users/sarakhandaker/Projects/EventsApp/Application/obj/Debug/net5.0/Application.AssemblyInfoInputs.cache
+/Users/sarakhandaker/Projects/EventsApp/Application/obj/Debug/net5.0/Application.AssemblyInfo.cs
+/Users/sarakhandaker/Projects/EventsApp/Application/obj/Debug/net5.0/Application.csproj.CoreCompileInputs.cache
+/Users/sarakhandaker/Projects/EventsApp/Application/obj/Debug/net5.0/Application.csproj.CopyComplete
+/Users/sarakhandaker/Projects/EventsApp/Application/obj/Debug/net5.0/Application.dll
+/Users/sarakhandaker/Projects/EventsApp/Application/obj/Debug/net5.0/ref/Application.dll
+/Users/sarakhandaker/Projects/EventsApp/Application/obj/Debug/net5.0/Application.pdb

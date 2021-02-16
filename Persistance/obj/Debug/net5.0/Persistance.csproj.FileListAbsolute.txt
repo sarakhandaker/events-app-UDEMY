@@ -1,0 +1,15 @@
+/Users/sarakhandaker/Projects/EventsApp/Persistance/bin/Debug/net5.0/Persistance.deps.json
+/Users/sarakhandaker/Projects/EventsApp/Persistance/bin/Debug/net5.0/Persistance.dll
+/Users/sarakhandaker/Projects/EventsApp/Persistance/bin/Debug/net5.0/ref/Persistance.dll
+/Users/sarakhandaker/Projects/EventsApp/Persistance/bin/Debug/net5.0/Persistance.pdb
+/Users/sarakhandaker/Projects/EventsApp/Persistance/bin/Debug/net5.0/Domain.dll
+/Users/sarakhandaker/Projects/EventsApp/Persistance/bin/Debug/net5.0/Domain.pdb
+/Users/sarakhandaker/Projects/EventsApp/Persistance/obj/Debug/net5.0/Persistance.csprojAssemblyReference.cache
+/Users/sarakhandaker/Projects/EventsApp/Persistance/obj/Debug/net5.0/Persistance.GeneratedMSBuildEditorConfig.editorconfig
+/Users/sarakhandaker/Projects/EventsApp/Persistance/obj/Debug/net5.0/Persistance.AssemblyInfoInputs.cache
+/Users/sarakhandaker/Projects/EventsApp/Persistance/obj/Debug/net5.0/Persistance.AssemblyInfo.cs
+/Users/sarakhandaker/Projects/EventsApp/Persistance/obj/Debug/net5.0/Persistance.csproj.CoreCompileInputs.cache
+/Users/sarakhandaker/Projects/EventsApp/Persistance/obj/Debug/net5.0/Persistance.csproj.CopyComplete
+/Users/sarakhandaker/Projects/EventsApp/Persistance/obj/Debug/net5.0/Persistance.dll
+/Users/sarakhandaker/Projects/EventsApp/Persistance/obj/Debug/net5.0/ref/Persistance.dll
+/Users/sarakhandaker/Projects/EventsApp/Persistance/obj/Debug/net5.0/Persistance.pdb

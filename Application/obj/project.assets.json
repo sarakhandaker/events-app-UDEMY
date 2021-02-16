@@ -1,11 +1,49 @@
 {
   "version": 3,
   "targets": {
-    "net5.0": {}
+    "net5.0": {
+      "Domain/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v5.0",
+        "compile": {
+          "bin/placeholder/Domain.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Domain.dll": {}
+        }
+      },
+      "Persistance/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v5.0",
+        "dependencies": {
+          "Domain": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/Persistance.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Persistance.dll": {}
+        }
+      }
+    }
   },
-  "libraries": {},
+  "libraries": {
+    "Domain/1.0.0": {
+      "type": "project",
+      "path": "../Domain/Domain.csproj",
+      "msbuildProject": "../Domain/Domain.csproj"
+    },
+    "Persistance/1.0.0": {
+      "type": "project",
+      "path": "../Persistance/Persistance.csproj",
+      "msbuildProject": "../Persistance/Persistance.csproj"
+    }
+  },
   "projectFileDependencyGroups": {
-    "net5.0": []
+    "net5.0": [
+      "Domain >= 1.0.0",
+      "Persistance >= 1.0.0"
+    ]
   },
   "packageFolders": {
     "/Users/sarakhandaker/.nuget/packages/": {}
@@ -31,7 +69,14 @@
       "frameworks": {
         "net5.0": {
           "targetAlias": "net5.0",
-          "projectReferences": {}
+          "projectReferences": {
+            "/Users/sarakhandaker/Projects/EventsApp/Domain/Domain.csproj": {
+              "projectPath": "/Users/sarakhandaker/Projects/EventsApp/Domain/Domain.csproj"
+            },
+            "/Users/sarakhandaker/Projects/EventsApp/Persistance/Persistance.csproj": {
+              "projectPath": "/Users/sarakhandaker/Projects/EventsApp/Persistance/Persistance.csproj"
+            }
+          }
         }
       },
       "warningProperties": {
