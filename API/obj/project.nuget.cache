@@ -1,10 +1,12 @@
 {
   "version": 2,
-  "dgSpecHash": "mK/R5riuCQwroIglJd0z9hj7QR4Aka/+NnmUO4p6DFmQBgJvRqtCX1BoIeTKzeMgyEEHpb4gEHK0uNOtyaHTlg==",
+  "dgSpecHash": "u++Wthj+FPAlk3XgHoeD5nHbX15RJS0VR2X9ziHELyM+5aKklMNtwC4rj3iGdtkeJtpZsTldJtsE5SLinWao4g==",
   "success": true,
   "projectFilePath": "/Users/sarakhandaker/Projects/EventsApp/API/API.csproj",
   "expectedPackageFiles": [
     "/Users/sarakhandaker/.nuget/packages/humanizer.core/2.8.26/humanizer.core.2.8.26.nupkg.sha512",
+    "/Users/sarakhandaker/.nuget/packages/mediatr/9.0.0/mediatr.9.0.0.nupkg.sha512",
+    "/Users/sarakhandaker/.nuget/packages/mediatr.extensions.microsoft.dependencyinjection/9.0.0/mediatr.extensions.microsoft.dependencyinjection.9.0.0.nupkg.sha512",
     "/Users/sarakhandaker/.nuget/packages/microsoft.aspnetcore.authentication.jwtbearer/5.0.0/microsoft.aspnetcore.authentication.jwtbearer.5.0.0.nupkg.sha512",
     "/Users/sarakhandaker/.nuget/packages/microsoft.aspnetcore.authentication.openidconnect/5.0.0/microsoft.aspnetcore.authentication.openidconnect.5.0.0.nupkg.sha512",
     "/Users/sarakhandaker/.nuget/packages/microsoft.csharp/4.7.0/microsoft.csharp.4.7.0.nupkg.sha512",

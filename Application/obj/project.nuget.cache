@@ -1,9 +1,11 @@
 {
   "version": 2,
-  "dgSpecHash": "Rjp/i3HF9V8ZZ4/36mQOTX/GBggYI8cskBCmaGZHrESrUVRht2R5Z/2QbI0clZxx2mi4C1ik49TcrhVe1OlHog==",
+  "dgSpecHash": "ZN0/kUa1io1TrSe2WVB3hcOEn1TPFE8SOcFxWtNBBCQK5sabe2SXnTeRGJoiPs5eb5C6G/VxR2WB4q0FXvfoZQ==",
   "success": true,
   "projectFilePath": "/Users/sarakhandaker/Projects/EventsApp/Application/Application.csproj",
   "expectedPackageFiles": [
+    "/Users/sarakhandaker/.nuget/packages/mediatr/9.0.0/mediatr.9.0.0.nupkg.sha512",
+    "/Users/sarakhandaker/.nuget/packages/mediatr.extensions.microsoft.dependencyinjection/9.0.0/mediatr.extensions.microsoft.dependencyinjection.9.0.0.nupkg.sha512",
     "/Users/sarakhandaker/.nuget/packages/microsoft.data.sqlite.core/5.0.3/microsoft.data.sqlite.core.5.0.3.nupkg.sha512",
     "/Users/sarakhandaker/.nuget/packages/microsoft.dotnet.platformabstractions/3.1.6/microsoft.dotnet.platformabstractions.3.1.6.nupkg.sha512",
     "/Users/sarakhandaker/.nuget/packages/microsoft.entityframeworkcore/5.0.3/microsoft.entityframeworkcore.5.0.3.nupkg.sha512",
