@@ -1,9 +1,11 @@
 {
   "version": 2,
-  "dgSpecHash": "u++Wthj+FPAlk3XgHoeD5nHbX15RJS0VR2X9ziHELyM+5aKklMNtwC4rj3iGdtkeJtpZsTldJtsE5SLinWao4g==",
+  "dgSpecHash": "4mwoQRWlg9El3xQv54Hh3uf3OWndmnAXV0C+ECnypzP8hgLC0dGENeR4D05Wv/RbD7f8RorjFKJyMZOfFPmpXA==",
   "success": true,
   "projectFilePath": "/Users/sarakhandaker/Projects/EventsApp/API/API.csproj",
   "expectedPackageFiles": [
+    "/Users/sarakhandaker/.nuget/packages/automapper/10.1.1/automapper.10.1.1.nupkg.sha512",
+    "/Users/sarakhandaker/.nuget/packages/automapper.extensions.microsoft.dependencyinjection/8.1.1/automapper.extensions.microsoft.dependencyinjection.8.1.1.nupkg.sha512",
     "/Users/sarakhandaker/.nuget/packages/humanizer.core/2.8.26/humanizer.core.2.8.26.nupkg.sha512",
     "/Users/sarakhandaker/.nuget/packages/mediatr/9.0.0/mediatr.9.0.0.nupkg.sha512",
     "/Users/sarakhandaker/.nuget/packages/mediatr.extensions.microsoft.dependencyinjection/9.0.0/mediatr.extensions.microsoft.dependencyinjection.9.0.0.nupkg.sha512",
@@ -49,6 +51,7 @@
     "/Users/sarakhandaker/.nuget/packages/system.diagnostics.diagnosticsource/5.0.1/system.diagnostics.diagnosticsource.5.0.1.nupkg.sha512",
     "/Users/sarakhandaker/.nuget/packages/system.identitymodel.tokens.jwt/6.7.1/system.identitymodel.tokens.jwt.6.7.1.nupkg.sha512",
     "/Users/sarakhandaker/.nuget/packages/system.memory/4.5.3/system.memory.4.5.3.nupkg.sha512",
+    "/Users/sarakhandaker/.nuget/packages/system.reflection.emit/4.7.0/system.reflection.emit.4.7.0.nupkg.sha512",
     "/Users/sarakhandaker/.nuget/packages/system.security.cryptography.cng/4.5.0/system.security.cryptography.cng.4.5.0.nupkg.sha512"
   ],
   "logs": []

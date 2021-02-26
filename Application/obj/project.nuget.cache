@@ -1,11 +1,14 @@
 {
   "version": 2,
-  "dgSpecHash": "ZN0/kUa1io1TrSe2WVB3hcOEn1TPFE8SOcFxWtNBBCQK5sabe2SXnTeRGJoiPs5eb5C6G/VxR2WB4q0FXvfoZQ==",
+  "dgSpecHash": "mkNAmmse/OLwbt09gMfzyBx/pc3m9WeiIt8pQC8Dn5rIzWipn7WykYt/NToXWU8kp7KwY4MGY/2fqNrO1Cz3Kg==",
   "success": true,
   "projectFilePath": "/Users/sarakhandaker/Projects/EventsApp/Application/Application.csproj",
   "expectedPackageFiles": [
+    "/Users/sarakhandaker/.nuget/packages/automapper/10.1.1/automapper.10.1.1.nupkg.sha512",
+    "/Users/sarakhandaker/.nuget/packages/automapper.extensions.microsoft.dependencyinjection/8.1.1/automapper.extensions.microsoft.dependencyinjection.8.1.1.nupkg.sha512",
     "/Users/sarakhandaker/.nuget/packages/mediatr/9.0.0/mediatr.9.0.0.nupkg.sha512",
     "/Users/sarakhandaker/.nuget/packages/mediatr.extensions.microsoft.dependencyinjection/9.0.0/mediatr.extensions.microsoft.dependencyinjection.9.0.0.nupkg.sha512",
+    "/Users/sarakhandaker/.nuget/packages/microsoft.csharp/4.7.0/microsoft.csharp.4.7.0.nupkg.sha512",
     "/Users/sarakhandaker/.nuget/packages/microsoft.data.sqlite.core/5.0.3/microsoft.data.sqlite.core.5.0.3.nupkg.sha512",
     "/Users/sarakhandaker/.nuget/packages/microsoft.dotnet.platformabstractions/3.1.6/microsoft.dotnet.platformabstractions.3.1.6.nupkg.sha512",
     "/Users/sarakhandaker/.nuget/packages/microsoft.entityframeworkcore/5.0.3/microsoft.entityframeworkcore.5.0.3.nupkg.sha512",
@@ -31,7 +34,8 @@
     "/Users/sarakhandaker/.nuget/packages/system.collections.immutable/5.0.0/system.collections.immutable.5.0.0.nupkg.sha512",
     "/Users/sarakhandaker/.nuget/packages/system.componentmodel.annotations/5.0.0/system.componentmodel.annotations.5.0.0.nupkg.sha512",
     "/Users/sarakhandaker/.nuget/packages/system.diagnostics.diagnosticsource/5.0.1/system.diagnostics.diagnosticsource.5.0.1.nupkg.sha512",
-    "/Users/sarakhandaker/.nuget/packages/system.memory/4.5.3/system.memory.4.5.3.nupkg.sha512"
+    "/Users/sarakhandaker/.nuget/packages/system.memory/4.5.3/system.memory.4.5.3.nupkg.sha512",
+    "/Users/sarakhandaker/.nuget/packages/system.reflection.emit/4.7.0/system.reflection.emit.4.7.0.nupkg.sha512"
   ],
   "logs": []
 }
