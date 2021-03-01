@@ -1,9 +1,10 @@
 import React, { useEffect, useState } from 'react';
 import axios from 'axios';
-import { Container, List } from 'semantic-ui-react';
+import { Container } from 'semantic-ui-react';
 import { Activity } from '../models/activity';
 import NavBar from './NavBar';
 import ActivityDashboard from '../../features/activities/dashboard/ActivityDashboard';
+import { v4 as uuid } from 'uuid';
 
 function App() {
   const [activities, setActivities] = useState<Activity[]>([])
@@ -24,26 +25,30 @@ function App() {
     setSelectedActivity(undefined)
   }
 
-  function handleFormOpen(id?: string){
-    id?  handleSelectActivity(id) : handleCancelSelectActivity();
+  function handleFormOpen(id?: string) {
+    id ? handleSelectActivity(id) : handleCancelSelectActivity();
     setEditMode(true);
   }
 
-  function handleFormClose(){
+  function handleFormClose() {
     setEditMode(false);
   }
 
-  function handleCreateOrUpdateActivity(activity: Activity){
-    activity.id ? setActivities([...activities.filter( x=> x.id !== activity.id), activity]) :
-    setActivities([...activities, activity])
+  function handleCreateOrUpdateActivity(activity: Activity) {
+    activity.id ? setActivities([...activities.filter(x => x.id !== activity.id), activity]) :
+      setActivities([...activities, { ...activity, id: uuid() }])
 
     setEditMode(false);
     setSelectedActivity(activity);
   }
 
+  function handleDeleteActivity(id: string) {
+    setActivities([...activities.filter(x => x.id !== id)])
+  }
+
   return (
     <>
-      <NavBar openForm={handleFormOpen}/>
+      <NavBar openForm={handleFormOpen} />
       <Container style={{ 'margin-top': '7em' }}>
         <ActivityDashboard
           selectedActivity={selectedActivity}
@@ -52,8 +57,9 @@ function App() {
           activities={activities}
           editMode={editMode}
           openForm={handleFormOpen}
-          closeForm= {handleFormClose}
-          createOrEdit= {handleCreateOrUpdateActivity}
+          closeForm={handleFormClose}
+          createOrEdit={handleCreateOrUpdateActivity}
+          deleteActivity={handleDeleteActivity}
         />
       </Container>
     </>
