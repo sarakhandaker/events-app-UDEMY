@@ -64,7 +64,12 @@ function App() {
   }
 
   function handleDeleteActivity(id: string) {
-    setActivities([...activities.filter(x => x.id !== id)])
+    setSubmitting(true)
+    agent.Activities.delete(id).then(()=>{
+      setActivities([...activities.filter(x => x.id !== id)])
+      setSubmitting(false)
+    })
+   
   }
 
   if (loading) return <LoadingComponent content='Loading app...'/>
@@ -72,7 +77,7 @@ function App() {
   return (
     <>
       <NavBar openForm={handleFormOpen} />
-      <Container style={{ 'margin-top': '7em' }}>
+      <Container style={{ 'marginTop': '7em' }}>
         <ActivityDashboard
           selectedActivity={selectedActivity}
           selectActivity={handleSelectActivity}
