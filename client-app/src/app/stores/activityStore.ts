@@ -1,6 +1,7 @@
-import { makeAutoObservable } from "mobx";
+import { makeAutoObservable, runInAction } from "mobx";
 import agent from "../api/agent";
 import { Activity } from "../models/activity";
+import {v4 as uuid} from 'uuid'
 
 export default class ActivityStore {
   activities: Activity[] = [];
@@ -62,9 +63,7 @@ export default class ActivityStore {
       });
     } catch (error) {
       console.log(error);
-      runInAction(() => {
-        this.loading = false;
-      });
+      runInAction(() => this.loading = false);
     }
   };
 
@@ -80,9 +79,7 @@ export default class ActivityStore {
       });
     } catch (error) {
       console.log(error);
-      runInAction(() => {
-        this.loading = false;
-      });
+      runInAction(() => this.loading = false);
     }
   };
 
