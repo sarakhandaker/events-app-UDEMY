@@ -1,12 +1,12 @@
 import React, { useEffect, useState } from 'react';
-import { Button, Container } from 'semantic-ui-react';
+import {Container } from 'semantic-ui-react';
 import { Activity } from '../models/activity';
 import NavBar from './NavBar';
 import ActivityDashboard from '../../features/activities/dashboard/ActivityDashboard';
 import { v4 as uuid } from 'uuid';
 import agent from '../api/agent'
 import LoadingComponent from './LoadingComponent'
-import { store, useStore } from '../stores/store';
+import {useStore } from '../stores/store';
 import { observer } from 'mobx-react-lite';
 
 function App() {
@@ -14,20 +14,11 @@ function App() {
   const [activities, setActivities] = useState<Activity[]>([])
   const [selectedActivity, setSelectedActivity] = useState<Activity | undefined>(undefined)
   const [editMode, setEditMode] = useState(false)
-  const [loading, setLoading] = useState(true)
   const [submitting, setSubmitting] = useState(false)
 
   useEffect(() => {
-    agent.Activities.list().then(resp => {
-      let activities: Activity[]= []
-      resp.forEach(act => {
-        act.date=act.date.split('T')[0]
-        activities.push(act)
-      })
-      setActivities(activities)
-      setLoading(false)
-    })
-  }, [])
+    activityStore.loadActivities()
+  }, [activityStore])
 
   function handleSelectActivity(id: string) {
     setSelectedActivity(activities.find(act => act.id === id));
@@ -75,19 +66,17 @@ function App() {
    
   }
 
-  if (loading) return <LoadingComponent content='Loading app...'/>
+  if (activityStore.initialLoading) return <LoadingComponent content='Loading app...'/>
 
   return (
     <>
       <NavBar openForm={handleFormOpen} />
       <Container style={{ 'marginTop': '7em' }}>
-        <h2>{activityStore.title}</h2>
-        <Button content='Add !' positive onClick={activityStore.setTitle}/>
         <ActivityDashboard
           selectedActivity={selectedActivity}
           selectActivity={handleSelectActivity}
           cancelSelectActivity={handleCancelSelectActivity}
-          activities={activities}
+          activities={activityStore.activities}
           editMode={editMode}
           openForm={handleFormOpen}
           closeForm={handleFormClose}
