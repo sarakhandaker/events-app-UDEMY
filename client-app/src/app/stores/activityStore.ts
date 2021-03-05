@@ -4,23 +4,26 @@ import { Activity } from "../models/activity";
 import {v4 as uuid} from 'uuid'
 
 export default class ActivityStore {
-  activities: Activity[] = [];
+  activityRegistry = new Map <string, Activity>();
   selectedActivity: Activity | undefined = undefined;
   editMode = false;
   loading = false;
-  initialLoading = false;
+  initialLoading = true;
 
   constructor() {
     makeAutoObservable(this);
   }
 
+  get activitiesByDate() {
+      return Array.from(this.activityRegistry.values()).sort((a,b) => Date.parse(a.date)- Date.parse(b.date))
+  }
+
   loadActivities = async () => {
-    this.setLoadingInitial(true);
     try {
       const activities = await agent.Activities.list();
       activities.forEach((act) => {
         act.date = act.date.split("T")[0];
-        this.activities.push(act);
+        this.activityRegistry.set(act.id, act)
       });
       this.setLoadingInitial(false);
     } catch (error) {
