@@ -94,9 +94,7 @@ export default class ActivityStore {
       });
     } catch (error) {
       console.log(error);
-      runInAction(() => {
-        this.loading = false;
-      });
+      runInAction(() => this.loading = false);
     }
   };
 }
