@@ -1,11 +1,14 @@
 {
   "version": 2,
-  "dgSpecHash": "4mwoQRWlg9El3xQv54Hh3uf3OWndmnAXV0C+ECnypzP8hgLC0dGENeR4D05Wv/RbD7f8RorjFKJyMZOfFPmpXA==",
+  "dgSpecHash": "AOpEZb4e6nVGMb8oI53hLuSEvSEXui2CugCHFhDwI+FAnbr/qC8kbGYvQsUHTM0cESTF1wlRaQOomt01qsObcQ==",
   "success": true,
   "projectFilePath": "/Users/sarakhandaker/Projects/EventsApp/API/API.csproj",
   "expectedPackageFiles": [
     "/Users/sarakhandaker/.nuget/packages/automapper/10.1.1/automapper.10.1.1.nupkg.sha512",
     "/Users/sarakhandaker/.nuget/packages/automapper.extensions.microsoft.dependencyinjection/8.1.1/automapper.extensions.microsoft.dependencyinjection.8.1.1.nupkg.sha512",
+    "/Users/sarakhandaker/.nuget/packages/fluentvalidation/9.5.2/fluentvalidation.9.5.2.nupkg.sha512",
+    "/Users/sarakhandaker/.nuget/packages/fluentvalidation.aspnetcore/9.5.2/fluentvalidation.aspnetcore.9.5.2.nupkg.sha512",
+    "/Users/sarakhandaker/.nuget/packages/fluentvalidation.dependencyinjectionextensions/9.5.2/fluentvalidation.dependencyinjectionextensions.9.5.2.nupkg.sha512",
     "/Users/sarakhandaker/.nuget/packages/humanizer.core/2.8.26/humanizer.core.2.8.26.nupkg.sha512",
     "/Users/sarakhandaker/.nuget/packages/mediatr/9.0.0/mediatr.9.0.0.nupkg.sha512",
     "/Users/sarakhandaker/.nuget/packages/mediatr.extensions.microsoft.dependencyinjection/9.0.0/mediatr.extensions.microsoft.dependencyinjection.9.0.0.nupkg.sha512",
