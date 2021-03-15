@@ -4,6 +4,7 @@ import './app/layout/styles.css';
 import App from './app/layout/App';
 import 'semantic-ui-css/semantic.min.css'
 import 'react-calendar/dist/Calendar.css'
+import 'react-toastify/dist/ReactToastify.min.css';
 import reportWebVitals from './reportWebVitals';
 import { store, StoreContext } from './app/stores/store';
 import { BrowserRouter } from 'react-router-dom';

@@ -72,3 +72,6 @@
 /Users/sarakhandaker/Projects/EventsApp/API/bin/Debug/net5.0/MediatR.Extensions.Microsoft.DependencyInjection.dll
 /Users/sarakhandaker/Projects/EventsApp/API/bin/Debug/net5.0/AutoMapper.dll
 /Users/sarakhandaker/Projects/EventsApp/API/bin/Debug/net5.0/AutoMapper.Extensions.Microsoft.DependencyInjection.dll
+/Users/sarakhandaker/Projects/EventsApp/API/bin/Debug/net5.0/FluentValidation.dll
+/Users/sarakhandaker/Projects/EventsApp/API/bin/Debug/net5.0/FluentValidation.AspNetCore.dll
+/Users/sarakhandaker/Projects/EventsApp/API/bin/Debug/net5.0/FluentValidation.DependencyInjectionExtensions.dll
