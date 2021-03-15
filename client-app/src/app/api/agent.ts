@@ -22,9 +22,7 @@ axios.interceptors.response.use(async response => {
             if (data.errors) {
                 const modalStateErrors = [];
                 for (const key in data.errors) {
-                    if (data.errors[key]) {
-                        modalStateErrors.push(data.errors[key])
-                    }
+                    data.errors[key] && modalStateErrors.push(data.errors[key])
                 }
                 throw modalStateErrors.flat();
             } else {
