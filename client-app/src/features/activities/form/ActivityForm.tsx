@@ -7,6 +7,7 @@ import { useStore } from '../../../app/stores/store';
 import { v4 as uuid } from 'uuid';
 import { Formik, Form, Field, ErrorMessage} from 'formik';
 import * as Yup from 'yup';
+import MyTextInput from '../../../app/common/form/MyTextInput';
 
 export default observer(function ActivityForm() {
     const history = useHistory();
@@ -65,17 +66,12 @@ export default observer(function ActivityForm() {
                 >
                 {({ handleSubmit }) => (
                     <Form className="ui form" onSubmit={handleSubmit} autoComplete='off'>
-                        <FormField>
-                            <Field placeholder="Title" name="title"></Field>
-                            <ErrorMessage name="title" 
-                            render={err => <Label basic content={err} color='red'/>} />
-                        </FormField>
-                        <Field placeholder='Title' name='title'/>
-                        <Field placeholder='Description' name='description' />
-                        <Field placeholder='Category' name='category' />
-                        <Field placeholder='Date' type="date" value={activity.date} name='date' />
-                        <Field placeholder='City' name='city' />
-                        <Field placeholder='Venue' name='venue' />
+                        <MyTextInput placeholder='Title' name='title'/>
+                        <MyTextInput placeholder='Description' name='description' />
+                        <MyTextInput placeholder='Category' name='category' />
+                        <MyTextInput placeholder='Date' name='date' />
+                        <MyTextInput placeholder='City' name='city' />
+                        <MyTextInput placeholder='Venue' name='venue' />
                         <Button loading={loading} floated='right' positive type='submit' content='Submit' />
                         <Button as={Link} to='/activities' floated='right' type='button' content='Cancel' />
                     </Form>
