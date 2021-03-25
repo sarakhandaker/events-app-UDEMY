@@ -1,5 +1,5 @@
 using System.Text;
-// using API.Services;
+using API.Services;
 using Domain;
 using Microsoft.AspNetCore.Authentication.JwtBearer;
 using Microsoft.AspNetCore.Identity;
@@ -36,7 +36,7 @@ namespace API.Extensions
             //             ValidateAudience = false
             //         };
             //     });
-            // services.AddScoped<TokenService>();
+            services.AddScoped<TokenService>();
 
             return services;
         }
