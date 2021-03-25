@@ -75,3 +75,8 @@
 /Users/sarakhandaker/Projects/EventsApp/API/bin/Debug/net5.0/FluentValidation.dll
 /Users/sarakhandaker/Projects/EventsApp/API/bin/Debug/net5.0/FluentValidation.AspNetCore.dll
 /Users/sarakhandaker/Projects/EventsApp/API/bin/Debug/net5.0/FluentValidation.DependencyInjectionExtensions.dll
+/Users/sarakhandaker/Projects/EventsApp/API/bin/Debug/net5.0/Microsoft.AspNetCore.Cryptography.Internal.dll
+/Users/sarakhandaker/Projects/EventsApp/API/bin/Debug/net5.0/Microsoft.AspNetCore.Cryptography.KeyDerivation.dll
+/Users/sarakhandaker/Projects/EventsApp/API/bin/Debug/net5.0/Microsoft.AspNetCore.Identity.EntityFrameworkCore.dll
+/Users/sarakhandaker/Projects/EventsApp/API/bin/Debug/net5.0/Microsoft.Extensions.Identity.Core.dll
+/Users/sarakhandaker/Projects/EventsApp/API/bin/Debug/net5.0/Microsoft.Extensions.Identity.Stores.dll
