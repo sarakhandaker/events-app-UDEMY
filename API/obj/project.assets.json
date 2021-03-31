@@ -772,6 +772,19 @@
           "bin/placeholder/Domain.dll": {}
         }
       },
+      "Infrastructure/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v5.0",
+        "dependencies": {
+          "Application": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/Infrastructure.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Infrastructure.dll": {}
+        }
+      },
       "Persistance/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v5.0",
@@ -2029,6 +2042,11 @@
       "path": "../Domain/Domain.csproj",
       "msbuildProject": "../Domain/Domain.csproj"
     },
+    "Infrastructure/1.0.0": {
+      "type": "project",
+      "path": "../Infrastructure/Infrastructure.csproj",
+      "msbuildProject": "../Infrastructure/Infrastructure.csproj"
+    },
     "Persistance/1.0.0": {
       "type": "project",
       "path": "../Persistance/Persistance.csproj",
@@ -2038,6 +2056,7 @@
   "projectFileDependencyGroups": {
     "net5.0": [
       "Application >= 1.0.0",
+      "Infrastructure >= 1.0.0",
       "Microsoft.AspNetCore.Authentication.JwtBearer >= 5.0.4",
       "Microsoft.AspNetCore.Authentication.OpenIdConnect >= 5.0.0",
       "Microsoft.EntityFrameworkCore.Design >= 5.0.0",
@@ -2071,6 +2090,9 @@
           "projectReferences": {
             "/Users/sarakhandaker/Projects/EventsApp/Application/Application.csproj": {
               "projectPath": "/Users/sarakhandaker/Projects/EventsApp/Application/Application.csproj"
+            },
+            "/Users/sarakhandaker/Projects/EventsApp/Infrastructure/Infrastructure.csproj": {
+              "projectPath": "/Users/sarakhandaker/Projects/EventsApp/Infrastructure/Infrastructure.csproj"
             }
           }
         }
